@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-blob"></div>
+        <div class="container hero-content">
+            <span class="hero-greeting">Hi, my name is</span>
+            <h1 class="hero-title">Your Name.</h1>
+            <h2 class="hero-subtitle">I build things for the web.</h2>
+            <p class="text-muted hero-description">
+                I'm a student specializing in building exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.
+            </p>
+            <a href="#projects" class="btn btn-primary">Check out my work!</a>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="container">
+            <h2>About Me & Education</h2>
+            <div class="grid grid-2">
+                <div class="glass-panel">
+                    <h3>Who I am</h3>
+                    <p>
+                        Hello! I enjoy creating things that live on the internet. My interest in web development started when I decided to try editing custom web themes — turns out hacking together HTML & CSS taught me a lot!
+                    </p>
+                </div>
+                <div class="glass-panel">
+                    <h3>Education</h3>
+                    <ul class="education-list">
+                        <li>
+                            <h4 class="accent-text">BSc in Computer Science</h4>
+                            <p>University of XYZ</p>
+                            <p class="text-muted small-text">2023 - Present</p>
+                        </li>
+                        <li>
+                            <h4 class="accent-text">Advanced Level (A/L)</h4>
+                            <p>ABC High School</p>
+                            <p class="text-muted small-text">2020 - 2022</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="glass-panel text-center">
+                <p class="margin-bottom-2">Here are a few technologies I've been working with recently:</p>
+                <div class="skills-container">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">CI/CD</span>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="container">
+            <h2>Featured Projects</h2>
+            <div class="grid grid-2">
+                <div class="glass-panel project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website built with pure HTML and custom glassmorphism CSS. It features a modern dark UI and is deployed via GitHub Actions.</p>
+                    <div class="project-links">
+                        <a href="#">GitHub Repo</a>
+                        <a href="#">Live Demo</a>
+                    </div>
+                </div>
+                <div class="glass-panel project-card">
+                    <h3>Web Application</h3>
+                    <p>A simple yet elegant application that fetches real-time data from a public API, displaying information beautifully.</p>
+                    <div class="project-links">
+                        <a href="#">GitHub Repo</a>
+                        <a href="#">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="container contact-section">
+            <h2>Get In Touch</h2>
+            <div class="glass-panel">
+                <p class="contact-text">
+                    Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                </p>
+                <a href="mailto:hello@example.com" class="btn btn-primary">Say Hello</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p class="text-muted">Designed & Built by Your Name</p>
+    </footer>
+</body>
+</html>

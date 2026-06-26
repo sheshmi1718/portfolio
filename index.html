@@ -8,9 +8,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Portfolio.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="hero" id="home">
         <div class="hero-blob"></div>
         <div class="container hero-content">
+            <!-- Profile Photo -->
+            <div class="profile-img-container">
+                <!-- Replace 'profile.jpg' with your actual photo file name -->
+                <img src="profile.jpg" alt="My Profile Photo" class="profile-img" onerror="this.src='https://via.placeholder.com/200x200?text=Your+Photo'">
+            </div>
+            
             <span class="hero-greeting">Hi, my name is</span>
             <h1 class="hero-title">Your Name.</h1>
             <h2 class="hero-subtitle">I build things for the web.</h2>

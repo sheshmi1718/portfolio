@@ -24,7 +24,6 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
 }
-/* Navigation Bar */
 .navbar {
   position: fixed;
   top: 0;
@@ -72,7 +71,6 @@ body {
 .nav-links a:hover {
   color: var(--accent-1);
 }
-/* Typography */
 h1, h2, h3, h4 {
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -90,17 +88,14 @@ h2 {
 .small-text { font-size: 0.9rem; }
 .text-center { text-align: center; }
 .margin-bottom-2 { margin-bottom: 2rem; }
-/* Layout */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
-/* Add padding to sections so navbar doesn't cover content when scrolling */
 section {
   padding: calc(6rem + var(--nav-height)) 0 6rem 0;
 }
-/* Glassmorphism utilities */
 .glass-panel {
   background: var(--glass-bg);
   backdrop-filter: blur(12px);
@@ -114,7 +109,6 @@ section {
   transform: translateY(-5px);
   border-color: rgba(255, 255, 255, 0.2);
 }
-/* Hero Section */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -144,7 +138,6 @@ section {
   text-align: center;
   z-index: 1;
 }
-/* Profile Image */
 .profile-img-container {
   margin-bottom: 2rem;
 }
@@ -181,7 +174,6 @@ section {
   max-width: 600px;
   margin: 0 auto 2rem auto;
 }
-/* Buttons */
 .btn {
   display: inline-block;
   padding: 0.8rem 2rem;
@@ -213,13 +205,11 @@ section {
   background: rgba(59, 130, 246, 0.1);
   transform: translateY(-2px);
 }
-/* Grid Layouts */
 .grid {
   display: grid;
   gap: 2rem;
 }
 .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-/* Education List */
 .education-list {
   list-style: none;
   margin-top: 1rem;
@@ -227,7 +217,6 @@ section {
 .education-list li {
   margin-bottom: 1.5rem;
 }
-/* Skills */
 .skill-tag {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -242,7 +231,6 @@ section {
 .skill-tag:hover {
   background: rgba(255, 255, 255, 0.1);
 }
-/* Projects */
 .project-card h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -263,7 +251,6 @@ section {
 .project-links a:hover {
   text-decoration: underline;
 }
-/* Contact */
 .contact-section {
   text-align: center;
 }
@@ -271,7 +258,6 @@ section {
   max-width: 600px; 
   margin: 0 auto 2rem auto;
 }
-/* Social Links */
 .social-links {
   display: flex;
   justify-content: center;
@@ -292,7 +278,6 @@ section {
   transition: all 0.3s ease;
   text-decoration: none;
 }
-/* Official Brand Colors for Social Icons */
 .social-links a .fa-facebook { 
   color: #1877F2; 
 }
@@ -303,32 +288,29 @@ section {
   color: #0A66C2; 
 }
 .social-links a .fa-github { 
-  color: #ffffff; /* White looks best for GitHub on a dark background */
+  color: #ffffff; 
 }
 .social-links a .fa-docker { 
   color: #2496ED; 
 }
 
-/* Update the hover effect to match */
 .social-links a:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.5);
 }
-/* Footer */
 footer {
   text-align: center;
   padding: 2rem;
   margin-top: 2rem;
   border-top: 1px solid var(--glass-border);
 }
-/* Responsive */
 @media (max-width: 768px) {
   .hero-title { font-size: 2.5rem; }
   .hero-subtitle { font-size: 1.5rem; }
   section { padding: calc(4rem + var(--nav-height)) 0 4rem 0; }
   
   .nav-links {
-    display: none; /* Hide links on very small screens for simplicity */
+    display: none; 
   }
 }

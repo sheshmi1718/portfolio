@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Portfolio.</a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="min-height: 100vh; display: flex; flex-direction: column;">
+        <section id="projects" class="container" style="flex: 1;">
+            <h2>Featured Projects</h2>
+            <div class="grid grid-2">
+                <div class="glass-panel project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website built with pure HTML and custom glassmorphism CSS. It features a modern dark UI and is deployed via GitHub Actions.</p>
+                    <div class="project-links">
+                        <a href="#">GitHub Repo</a>
+                        <a href="#">Live Demo</a>
+                    </div>
+                </div>
+                <div class="glass-panel project-card">
+                    <h3>Web Application</h3>
+                    <p>A simple yet elegant application that fetches real-time data from a public API, displaying information beautifully.</p>
+                    <div class="project-links">
+                        <a href="#">GitHub Repo</a>
+                        <a href="#">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p class="text-muted">Designed & Built by Sheshmi Chamodya</p>
+        </footer>
+    </main>
+</body>
+</html>
